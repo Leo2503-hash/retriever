@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #000000;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      margin: 10px 0;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #005f86;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Gallery</h1>
+  <div>
+    <!-- Replace with your selected images -->
+    <img src="page0001.jpg" alt="Image 1">
+    <img src="page0002.jpg" alt="Image 2">
+    <img src="page0003.jpg" alt="Image 3">
+  </div>
+  <button onclick="redirectToInstagram()">Visit My Instagram</button>
+
+  <script>
+    function redirectToInstagram() {
+      window.location.href = "https://www.instagram.com/umesh.chandra_1972/";
+    }
+  </script>
+</body>
+</html>
