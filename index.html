@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
   <title>Confession Gallery - Share Your Thoughts</title>
   <style>
     body {
@@ -35,8 +35,8 @@
       font-size: 12px;
       cursor: pointer;
       position: absolute;
-      bottom: 50px; /* Moved more to the top */
-      left: 70%; /* Moved further to the right */
+      bottom: 50px; /* Moved to the top */
+      left: 60%; /* Adjusted to bring it more to the left */
       transform: translateX(-50%);
     }
     button:hover {
@@ -50,8 +50,9 @@
       }
       button {
         bottom: 25px; /* Adjusted further up for tablets */
-        left: 75%; /* Moved more to the right for tablets */
+        left: 65%; /* Slightly moved to the left */
         font-size: 14px;
+        padding: 8px 16px; /* Adjust button size for tablets */
       }
     }
 
@@ -62,8 +63,9 @@
       }
       button {
         bottom: 20px; /* Adjusted higher for phones */
-        left: 80%; /* Moved further to the right for phones */
-        font-size: 16px;
+        left: 60%; /* Slightly moved to the left on phones */
+        font-size: 12px; /* Reduced font size on phone */
+        padding: 6px 12px; /* Smaller button on phone */
       }
     }
   </style>
